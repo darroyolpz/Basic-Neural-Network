@@ -1,0 +1,12 @@
+1. Go to your Sublime build folder or create a new one. Last was in:
+C:\Users\d645daar\AppData\Roaming\Sublime Text 3\Packages\User
+
+2. Edit to:
+{
+    "cmd": ["C:/ProgramData/Anaconda3/python.exe", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+     "shell": true,
+    "selector": "source.python"
+}
+
+3. Save a enjoy. Bear in mind the path to where python will be executed.
